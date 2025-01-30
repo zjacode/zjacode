@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <style>
+        body{margin:0;padding:0;overflow: hidden;} .city{width:100%;position:fixed;bottom:
+                0px;z-index: 100;} .city img{width: 100%;}
+        audio{
+            opacity: 0;
+        }
+    </style>
+    <title>
+        放烟花
+    </title>
+    <link href="modal.css" rel="stylesheet"/>
+</head>
+<body onselectstart="return false">
+<!--对话部分-->
+<div class="share_img"><img src="a8b.png" alt=""></div>
+
+<div class="page_one">
+    <div class="content">
+        <div class="text_wrapper">
+            <img src="a8.png" alt="">
+            <div class="text">
+                各位帅哥，美女，愿意和我共度春节吗？
+            </div>
+        </div>
+    </div>
+    <div class="btn-groups">
+        <div class="heart-btn">
+            <div id="yes" class="btn btn-a"><span>愿意</span></div>
+        </div>
+        <div id="no" class="btn btn-b"><span>不愿意</span></div>
+    </div>
+</div>
+<!--烟花部分-->
+<canvas id='cas' style="background-color:rgba(0,5,24,1)">
+    浏览器不支持canvas
+</canvas>
+<div class="city">
+    <img src="city.png" alt="" />
+</div>
+<img src="moon.png" alt="" id="moon" style="visibility: hidden;" />
+<div style="display:none">
+    <div class="shape">
+        金蛇贺岁
+    </div>
+    <div class="shape">
+        阖家欢乐
+    </div>
+    <div class="shape">
+        期末不挂科
+    </div>
+    <div class="shape">
+        日进斗金
+    </div>
+    <div class="shape">
+        国泰民安
+    </div> 
+    <div class="shape">
+        数字经济与管理学院足球队越来越强
+    </div>   
+    <div class="shape">
+        身体健康，万事如意
+    </div>   
+    <div class="shape">
+        恭喜发财
+    </div>   
+    <div class="shape">
+        welcome to Guiyang
+    </div>   
+    <div class="shape">
+        感谢各位恩师的栽培
+    </div>   
+    <div class="shape">
+        谢谢各位家人的支持与陪伴
+    </div>   
+    <div class="shape">
+        金蛇迎晓日
+    </div> 
+    <div class="shape"> 
+        邓紫棋的歌真的很好听
+    </div>     
+    <div class="shape">
+        钱包鼓鼓，快乐无穷 
+    </div>
+    <div class="shape">
+        彩凤舞春风
+    </div>
+    <div class="shape">
+        福蛇绕，财路广
+    </div>  
+    <div class="shape">
+        迎瑞蛇，吉星照
+    </div>  
+    <div class="shape">
+        蛇迎春，喜盈门
+    </div>  
+    <div class="shape">
+        吉蛇越，福星照
+    </div>  
+    <div class="shape">
+        运道旺，步步高
+    </div>  
+    <div class="shape">
+        财满昌，福满园
+    </div>  
+    <div class="shape">
+        业有成，心有期
+    </div>      
+    <div class="shape">
+        烦恼消，乐陶陶
+    </div>  
+    <div class="shape">
+        体安康，岁平安
+    </div>  
+    <div class="shape">
+        长歌有和孤行有光
+    </div>
+    <div class="shape">
+        新年快乐
+    </div>  
+</div>
+<!--音乐部分-->
+<audio autoplay loop id="music">
+    <source src="music.mp3" />
+</audio>
+<iframe  id="iframMusic" allow="autoplay" style="display:none" src="blank.mp3"></iframe>
+<script src="jquery.min.js"></script>
+<script src="fire.js"></script>
+<script src="talk.js"></script>
+</body>
+
+</html>
